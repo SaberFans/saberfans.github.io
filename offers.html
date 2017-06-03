@@ -12,148 +12,148 @@
 
 	<!--     Fonts and icons     -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
 
 	<!-- CSS Files -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/css/material-kit.css" rel="stylesheet"/>
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
 
 	<style>
-	 /*style for pricing table*/
+		/*style for pricing table*/
 		.content {
-		    padding: 30px 0;
+			padding: 30px 0;
 		}
 
 		/***
 		Pricing table
 		***/
 		.pricing {
-		  position: relative;
-		  margin-bottom: 15px;
-		  border: 3px solid #eee;
+			position: relative;
+			margin-bottom: 15px;
+			border: 3px solid #eee;
 		}
 
 		.pricing-active {
-		  border: 3px solid #36d7ac;
-		  margin-top: -10px;
-		  box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
+			border: 3px solid #36d7ac;
+			margin-top: -10px;
+			box-shadow: 7px 7px rgba(54, 215, 172, 0.2);
 		}
 
 		.pricing:hover {
-		  border: 3px solid #36d7ac;
+			border: 3px solid #36d7ac;
 		}
 
 		.pricing:hover h4 {
-		  color: #36d7ac;
+			color: #36d7ac;
 		}
 
 		.pricing-head {
-		  text-align: center;
+			text-align: center;
 		}
 
 		.pricing-head h3,
 		.pricing-head h4 {
-		  margin: 0;
-		  line-height: normal;
+			margin: 0;
+			line-height: normal;
 		}
 
 		.pricing-head h3 span,
 		.pricing-head h4 span {
-		  display: block;
-		  margin-top: 5px;
-		  font-size: 14px;
-		  font-style: italic;
+			display: block;
+			margin-top: 5px;
+			font-size: 14px;
+			font-style: italic;
 		}
 
 		.pricing-head h3 {
-		  font-weight: 300;
-		  color: #fafafa;
-		  padding: 12px 0;
-		  font-size: 27px;
-		  background: #36d7ac;
-		  border-bottom: solid 1px #41b91c;
+			font-weight: 300;
+			color: #fafafa;
+			padding: 12px 0;
+			font-size: 27px;
+			background: #36d7ac;
+			border-bottom: solid 1px #41b91c;
 		}
 
 		.pricing-head h4 {
-		  color: #bac39f;
-		  padding: 5px 0;
-		  font-size: 54px;
-		  font-weight: 300;
-		  background: #fbfef2;
-		  border-bottom: solid 1px #f5f9e7;
+			color: #bac39f;
+			padding: 5px 0;
+			font-size: 54px;
+			font-weight: 300;
+			background: #fbfef2;
+			border-bottom: solid 1px #f5f9e7;
 		}
 
 		.pricing-head-active h4 {
-		  color: #36d7ac;
+			color: #36d7ac;
 		}
 
 		.pricing-head h4 i {
-		  top: -8px;
-		  font-size: 28px;
-		  font-style: normal;
-		  position: relative;
+			top: -8px;
+			font-size: 28px;
+			font-style: normal;
+			position: relative;
 		}
 
 		.pricing-head h4 span {
-		  top: -10px;
-		  font-size: 14px;
-		  font-style: normal;
-		  position: relative;
+			top: -10px;
+			font-size: 14px;
+			font-style: normal;
+			position: relative;
 		}
 
 		/*Pricing Content*/
 		.pricing-content li {
-		  color: #888;
-		  font-size: 12px;
-		  padding: 7px 15px;
-		  border-bottom: solid 1px #f5f9e7;
+			color: #888;
+			font-size: 12px;
+			padding: 7px 15px;
+			border-bottom: solid 1px #f5f9e7;
 		}
 
 		/*Pricing Footer*/
 		.pricing-footer {
-		  color: #777;
-		  font-size: 11px;
-		  line-height: 17px;
-		  text-align: center;
-		  padding: 0 20px 19px;
+			color: #777;
+			font-size: 11px;
+			line-height: 17px;
+			text-align: center;
+			padding: 0 20px 19px;
 		}
 
 		/*Priceing Active*/
 		.price-active,
 		.pricing:hover {
-		  z-index: 9;
+			z-index: 9;
 		}
 
 		.price-active h4 {
-		  color: #36d7ac;
+			color: #36d7ac;
 		}
 
 		.no-space-pricing .pricing:hover {
-		  transition: box-shadow 0.2s ease-in-out;
+			transition: box-shadow 0.2s ease-in-out;
 		}
 
 		.no-space-pricing .price-active .pricing-head h4,
 		.no-space-pricing .pricing:hover .pricing-head h4 {
-		  color: #36d7ac;
-		  padding: 15px 0;
-		  font-size: 80px;
-		  transition: color 0.5s ease-in-out;
+			color: #36d7ac;
+			padding: 15px 0;
+			font-size: 80px;
+			transition: color 0.5s ease-in-out;
 		}
 
 		.yellow-crusta.btn {
-		  color: #FFFFFF;
-		  background-color: #f3c200;
+			color: #FFFFFF;
+			background-color: #f3c200;
 		}
 		.yellow-crusta.btn:hover,
 		.yellow-crusta.btn:focus,
 		.yellow-crusta.btn:active,
 		.yellow-crusta.btn.active {
-		    color: #FFFFFF;
-		    background-color: #cfa500;
+			color: #FFFFFF;
+			background-color: #cfa500;
 		}
 
 	</style>
@@ -161,64 +161,112 @@
 
 <body class="tutorial-page">
 
-<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button id="menu-toggle" type="button" class="navbar-toggle">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar bar1"></span>
-        <span class="icon-bar bar2"></span>
-        <span class="icon-bar bar3"></span>
-      </button>
-      <a href="index.html">
-           <div class="logo-container">
+	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button id="menu-toggle" type="button" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar bar1"></span>
+					<span class="icon-bar bar2"></span>
+					<span class="icon-bar bar3"></span>
+				</button>
+				<a href="index.html">
+					<div class="logo-container">
                 <!-- <div class="logo">
                     <img src="assets/img/logo.png" alt="Creative Tim Logo">
                 </div> -->
                 <div class="brand">
-                    Beauty Streaming Room
+                	Beauty Streaming Room
                 </div>
             </div>
-      </a>
+        </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse">
-		<ul  class="nav navbar-nav navbar-right">
-			<li>
-				<a href="index.html">Back to Kit</a>
-			</li>
-			<li>
-                <a href="">Have an issue?</a>
-            </li>
-    	</ul>
+    	<!-- navi bar -->
+    	<div class="container" style="margin: 0px 20px 400px 400px;">
+    		<div class="collapse navbar-collapse" id="navigation-index" >
+    			<ul class="nav navbar-nav navbar-center">
+    				<li>
 
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+    					<li>
+    						<li>
+    							<a href="index.html">
+    								<i class="material-icons">home</i>Home
+    							</a>
+    							<li>
 
-<div class="wrapper">
-	<div class="header header-filter" style="background-image: url('assets/img/cosmetics-offers.jpg');">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3">
-					<h1 class="title text-center">Upgrade Your Plan</h1>
-				</div>
-			</div>
-		</div>
-	</div>
+    								<li>
+    									<a href="brands.html">
+    										<i class="material-icons">layers</i>Brands
+    									</a>
+    									<li>
+    										<a href="videos.html" >
+    											<i class="material-icons">dashboard</i>Function
+    										</a>
+    									</li>
+    									<li>
+    										<a href="vip.html" >
+    											<i class="material-icons">verified_user</i>VIP
+    										</a>
+    									</li>
 
-	<div class="main main-raised ">
-		<div class="section">
-	        <div class="container" >
-	        	
-	        	<div class="row tim-row" >
-	        		
+    									<li>
+    										<!-- Price Table pages -->
+    										<a href="offers.html" >
+    											<i class="material-icons">unarchive</i>Price Plan
+    										</a>
+    									</li>
+    									<li>
+    										<a rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href=""   class="btn btn-white btn-simple btn-just-icon">
+    											<i class="fa fa-twitter"></i>
+    										</a>
+    									</li>
+    									<li>
+    										<a rel="tooltip" title="Like us on Facebook" data-placement="bottom" href=""  class="btn btn-white btn-simple btn-just-icon">
+    											<i class="fa fa-facebook-square"></i>
+    										</a>
+    									</li>
+    									<li>
+    										<a rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="" class="btn btn-white btn-simple btn-just-icon">
+    											<i class="fa fa-instagram"></i>
+    										</a>
+    									</li>
 
-<div class="container content text-center" >
-	<div class="row " style="display: flex;justify-content: center;align-items: center; ">
-		<!-- Pricing -->
+    								</ul>
+    							</div>
+
+
+
+    						</div>
+
+    					</div><!-- /.navbar-collapse -->
+    				</div><!-- /.container-fluid -->
+    			</nav>
+
+    			<div class="wrapper">
+    				<div class="header header-filter" style="background-image: url('assets/img/cosmetics-offers.jpg');">
+    					<div class="container">
+    						<div class="row" style="margin-top: -50px">
+    							<div class="col-md-5 col-md-offset-3">
+    								<h2 class="title text-center">Upgrade Your Plan</h2>
+    							</div>
+    						</div>
+    					</div>
+    				</div>
+
+    				<div class="main main-raised " style="margin-top: -170px; min-width: :1000px">
+    					<div class="section">
+    						<div class="container" >
+
+    							<div class="row tim-row" >
+
+
+    								<div class="container content text-center" >
+    									<div class="row " style="display: flex;justify-content: center;align-items: center; ">
+    										<!-- Pricing -->
 		<!-- <div class="col-md-3 ">
 			<div class="pricing hover-effect ">
 				<div class="pricing-head">
@@ -251,82 +299,82 @@
 			<div class="pricing hover-effect">
 				<div class="pricing-head">
 					<h3>Basic <span>
-					Most popular option</span>
+						Most popular option</span>
 					</h3>
 					<h4><i>¥</i>0<i></i>
-					<span>
-					Per Month </span>
-					</h4>
-				</div>
-				<ul class="pricing-content list-unstyled">
-					<li>
-						5 videos access per day
-					</li>
-					<li>
-						Limited Video Recommendation 
-					</li>
-					<li>
-						Channel Subscription up to 5 in total.
-					</li>
-					<li>
-						Video downloads up to 5 per week.
-					</li>
-					
-				</ul>
-				<div class="pricing-footer">
-					<a href="javascript:;" class="btn yellow-crusta">
-					Sign Up
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-md-3">
-			<div class="pricing hover-effect">
-				<div class="pricing-head pricing-head-active">
-					<h3>Premium <span>
-					VIP</span>
-					</h3>
-					<h4><i>¥</i>13<i>.99</i>
-					<span>
-					Per Month </span>
-					</h4>
-				</div>
-				<ul class="pricing-content list-unstyled">
-					<li>
-						Full Access to videos
-					</li>
-					<li>
-						Video Recommendation
-					</li>
-					<li>
-						No limit to channel subscription
-					</li>
-					<li>
-						No limit to video downloading.
-					</li>
+						<span>
+							Per Month </span>
+						</h4>
+					</div>
+					<ul class="pricing-content list-unstyled">
+						<li>
+							5 videos access per day
+						</li>
+						<li>
+							Limited Video Recommendation 
+						</li>
+						<li>
+							Channel Subscription up to 5 in total.
+						</li>
+						<li>
+							Video downloads up to 5 per week.
+						</li>
 
-				</ul>
-				<div class="pricing-footer">
-					<a href="javascript:;" class="btn yellow-crusta">
-					Sign Up
-					</a>
+					</ul>
+					<div class="pricing-footer">
+						<a href="javascript:;" class="btn yellow-crusta">
+							Sign Up
+						</a>
+					</div>
 				</div>
 			</div>
+			<div class="col-md-3">
+				<div class="pricing hover-effect">
+					<div class="pricing-head pricing-head-active">
+						<h3>Premium <span>
+							VIP</span>
+						</h3>
+						<h4><i>¥</i>13<i>.99</i>
+							<span>
+								Per Month </span>
+							</h4>
+						</div>
+						<ul class="pricing-content list-unstyled">
+							<li>
+								Full Access to videos
+							</li>
+							<li>
+								Video Recommendation
+							</li>
+							<li>
+								No limit to channel subscription
+							</li>
+							<li>
+								No limit to video downloading.
+							</li>
+
+						</ul>
+						<div class="pricing-footer">
+							<a href="javascript:;" class="btn yellow-crusta">
+								Sign Up
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
 		</div>
-		
-		
 	</div>
 </div>
-	        	</div>
-	        </div>
-	    </div>
-	</div>
+</div>
+</div>
 
 </div>
 <footer class="footer footer-transparent">
-    <div class="container">
-        <nav class="pull-left">
-            <ul>
+	<div class="container">
+		<nav class="pull-left">
+			<ul>
 				<li>
 					<a href="">
 						Creative Tim
@@ -334,12 +382,12 @@
 				</li>
 				<li>
 					<a href="">
-					   About Us
+						About Us
 					</a>
 				</li>
 				<li>
 					<a href="">
-					   Blog
+						Blog
 					</a>
 				</li>
 				<li>
@@ -347,47 +395,47 @@
 						Licenses
 					</a>
 				</li>
-            </ul>
-        </nav>
-        <div class="social-area pull-right">
-            <a class="btn btn-social btn-twitter btn-just-icon" href="">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a class="btn btn-social btn-facebook btn-just-icon" href="">
-                <i class="fa fa-facebook-square"></i>
-            </a>
-            <a class="btn btn-social btn-google btn-just-icon" href="">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </div>
-        <div class="copyright">
-            &copy; 2016 Creative Tim, made with love
-        </div>
-    </div>
+			</ul>
+		</nav>
+		<div class="social-area pull-right">
+			<a class="btn btn-social btn-twitter btn-just-icon" href="">
+				<i class="fa fa-twitter"></i>
+			</a>
+			<a class="btn btn-social btn-facebook btn-just-icon" href="">
+				<i class="fa fa-facebook-square"></i>
+			</a>
+			<a class="btn btn-social btn-google btn-just-icon" href="">
+				<i class="fa fa-google-plus"></i>
+			</a>
+		</div>
+		<div class="copyright">
+			&copy; 2016 Creative Tim, made with love
+		</div>
+	</div>
 </footer>
 
 </body>
-	<!--   Core JS Files   -->
-	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
-	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-	<script src="assets/js/material.min.js"></script>
+<!--   Core JS Files   -->
+<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="assets/js/material.min.js"></script>
 
-	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
 
-	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
-	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
 
-	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
-	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+<script src="assets/js/material-kit.js" type="text/javascript"></script>
 
-	<script>
+<script>
 
-		¥().ready(function(){
+	¥().ready(function(){
 
-			¥(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+		¥(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
 
-		});
+	});
 
 </script>
 </html>
